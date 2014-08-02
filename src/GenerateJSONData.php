@@ -5,6 +5,7 @@
     // Using MongoDB for storage of user profiles.
 
     // Generating some basic Analytics and rendering that on the App
+class GenerateJSONData {
 
     function createMultipleProfiles() {
 
@@ -53,9 +54,9 @@
         $meanBloodPressure = 0;
 
         foreach($cursor as $document) {
-            $meanPosture += $document['mode'];
-            $meanHeartRate += $document['heartRate'];
-            $meanBloodPressure += $document['bloodPressure'];
+            $meanPosture += $document['classifier']['mode'];
+            $meanHeartRate += $document['heartSensor']['heartRate'];
+            $meanBloodPressure += $document['heartSensor']['bloodPressure'];
             $countDocuments += 1;
         }
         $resultantPosture = $meanPosture/$countDocuments;
@@ -63,34 +64,34 @@
         $resultantBloodPressure = $meanBloodPressure/$countDocuments;
 
         if($resultantPosture>100 && $resultantPosture<200)
-            echo "You did not move much today. Do some exercise dude !!";
+            echo "\n\nYou did not move much today. Do some exercise dude !!".$resultantPosture;
         else if($resultantPosture>200 && $resultantPosture<300)
-            echo "A balanced day for you dude !!";
+            echo "\n\nA balanced day for you dude !! All body postures covered ".$resultantPosture;
         else
-            echo "Too much for a day. Chill out dude !!";
+            echo "\n\nToo much running for a day. Chill out dude !!".$resultantPosture;
 
 
         // Heart Rate Analytics
         if($resultantHeartRate>50)
-            echo "Easy man ! Your heart is at whooping heights.";
+            echo "\n\nEasy man ! Your heart is at whooping heights.".$resultantHeartRate;
         else if($resultantHeartRate>20 && $resultantHeartRate<50)
-            echo "Seems you kept your cool today !!";
+            echo "\n\nSeems you kept your cool today !! Heart Rate is normal ".$resultantHeartRate;
         else
-            echo "Dude !! Is something wrong ? Your heart rate is pathetic";
+            echo "\n\nDude !! Is something wrong ? Your heart rate is pathetic ".$resultantHeartRate;
 
         // Blood Pressure Analytics
         if($resultantBloodPressure>80)
-            echo "High BP Alert !!";
+            echo "\n\nHigh BP Alert !! ".$resultantBloodPressure;
         else if($resultantBloodPressure>40 && $resultantBloodPressure<80)
-            echo "BP Normal !!";
+            echo "\n\nBP Normal !!".$resultantBloodPressure;
         else
-            echo "Dude, your BP is LOW !!";
+            echo "\n\nDude, your BP is LOW !!".$resultantBloodPressure;
     }
 
     function displayProfileData() {
 
         echo "Creating Random User Profiles . . .";
-        createMultipleProfiles();
+        $this->createMultipleProfiles();
 
         //establishing new connection with database.
         echo "\nEstablishing Connection with Mongo";
@@ -102,12 +103,13 @@
         $cursor = $collection->find();
 
         foreach ($cursor as $document) {
-            print_r($document)."\n";
+            print_r($document['classifier']['mode']."\n");
         }
     }
+}
 
-    // method to create multiple profiles and then generate analytics out of them
-    
+
+
 
 
 
