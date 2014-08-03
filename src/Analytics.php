@@ -1,5 +1,8 @@
 <?php
 
+// Constraints are just on a random basis.
+// It can be modified in later stages with real data.
+
 class Analytics {
 
     function generateAnalytics() {
