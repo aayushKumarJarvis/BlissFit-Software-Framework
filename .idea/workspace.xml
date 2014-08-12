@@ -26,16 +26,16 @@
       <file leaf-file-name="GenerateJSONData.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GenerateJSONData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1837" selection-end="1837" vertical-scroll-proportion="-31.25" vertical-offset="225" max-vertical-offset="1095">
+            <state line="9" column="39" selection-start="290" selection-end="290" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Analytics.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Analytics.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Analytics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.096" vertical-offset="0" max-vertical-offset="915">
+            <state line="55" column="1" selection-start="2286" selection-end="2286" vertical-scroll-proportion="-33.416668" vertical-offset="23" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -53,10 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clientForGenerateJSONData.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clientForGenerateJSONData.php">
+      <file leaf-file-name="TimeBasedData.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TimeBasedData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+            <state line="51" column="52" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-24.833334" vertical-offset="169" max-vertical-offset="960">
+              <folding>
+                <element signature="e#7#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientForTimeBasedData.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ClientForTimeBasedData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="43" selection-start="272" selection-end="272" vertical-scroll-proportion="0.3180212" vertical-offset="0" max-vertical-offset="566">
               <folding />
             </state>
           </provider>
@@ -78,6 +89,9 @@
         <option value="$PROJECT_DIR$/src/clientForGenerateJSONData.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Analytics.php" />
+        <option value="$PROJECT_DIR$/src/testFile.php" />
+        <option value="$PROJECT_DIR$/src/TimeBasedData.php" />
+        <option value="$PROJECT_DIR$/src/ClientForTimeBasedData.php" />
       </list>
     </option>
   </component>
@@ -85,8 +99,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
     <option name="y" value="24" />
-    <option name="width" value="1317" />
-    <option name="height" value="744" />
+    <option name="width" value="1551" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -114,6 +128,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,7 +163,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,8 +173,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/phpdox" />
   </component>
-  <component name="RunManager" selected="PHP Script.clientForGenerateJSONData.php">
+  <component name="RunManager" selected="PHP Script.ClientForTimeBasedData.php">
     <configuration default="false" name="displayUserProfiles.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/displayUserProfiles.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -172,6 +187,11 @@
       <method />
     </configuration>
     <configuration default="false" name="clientForGenerateJSONData.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/clientForGenerateJSONData.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ClientForTimeBasedData.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/ClientForTimeBasedData.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -189,16 +209,18 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.displayUserProfiles.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.GenerateJSONData.php" />
       <item index="2" class="java.lang.String" itemvalue="PHP Script.clientForGenerateJSONData.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.ClientForTimeBasedData.php" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.clientForGenerateJSONData.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.GenerateJSONData.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.displayUserProfiles.php" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.ClientForTimeBasedData.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.clientForGenerateJSONData.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.GenerateJSONData.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.displayUserProfiles.php" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
+    <frame x="49" y="24" width="1551" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -220,19 +242,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981017" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25646123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28994083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21401274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -254,12 +276,105 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/GenerateJSONData.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="39" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analytics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientForGenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="39" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analytics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="59" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientForGenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="39" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analytics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientForGenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="29" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1845">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientForGenerateJSONData.php">
+    <entry file="file://$PROJECT_DIR$/src/ClientForGenerateJSONData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
           <folding />
@@ -273,7 +388,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientForGenerateJSONData.php">
+    <entry file="file://$PROJECT_DIR$/src/ClientForGenerateJSONData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
           <folding />
@@ -303,23 +418,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="0" selection-start="8842" selection-end="8842" vertical-scroll-proportion="0.5616" vertical-offset="3504" max-vertical-offset="16320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientForGenerateJSONData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GenerateJSONData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1837" selection-end="1837" vertical-scroll-proportion="-31.25" vertical-offset="225" max-vertical-offset="1095">
-          <folding />
-        </state>
+        <state line="257" column="0" selection-start="8842" selection-end="8842" vertical-scroll-proportion="0.5616" vertical-offset="3504" max-vertical-offset="16320" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -332,9 +431,39 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="290" selection-end="290" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Analytics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.096" vertical-offset="0" max-vertical-offset="915">
+        <state line="55" column="1" selection-start="2286" selection-end="2286" vertical-scroll-proportion="-33.416668" vertical-offset="23" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientForGenerateJSONData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TimeBasedData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="52" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-24.833334" vertical-offset="169" max-vertical-offset="960">
+          <folding>
+            <element signature="e#7#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientForTimeBasedData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="43" selection-start="272" selection-end="272" vertical-scroll-proportion="0.3180212" vertical-offset="0" max-vertical-offset="566">
           <folding />
         </state>
       </provider>
